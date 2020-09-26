@@ -1,6 +1,28 @@
-# Unit 11 Express Homework: Note Taker
+# Note Taker
 
-## Description
+This application is a note taking tool. The user starts at the main page that has the "Get Started" button:
+
+![note homepage](./public/assets/app-home.jpg)
+
+Once clicked, the user is taken to the notes menu where they can view their old notes:
+
+![Notes](./public/assets/app-notes-fresh.jpg)
+
+make new notes:
+ 
+![Edit](./public/assets/app-note-new.jpg)
+ 
+and edit previous notes as well:
+
+![Note list](./public/assets/app-notes-list.jpg)
+
+Notes save to the database and won't go away until deleted.
+
+Assignment details below:
+
+## Unit 11 Express Homework: Note Taker
+
+### Description
 
 Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
@@ -22,7 +44,7 @@ Create an application that can be used to write, save, and delete notes. This ap
 
   * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
-## User Story
+### User Story
 
 AS A user, I want to be able to write and save notes
 
@@ -30,11 +52,11 @@ I WANT to be able to delete notes I've written before
 
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-## Business Context
+### Business Context
 
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 Application should allow users to create and save notes.
 
@@ -42,13 +64,13 @@ Application should allow users to view previously saved notes.
 
 Application should allow users to delete previously saved notes.
 
-## Deploying the App
+### Deploying the App
 
 You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku. Carefully follow the [Heroku Guide](../04-Supplemental/HerokuGuide.md) for getting your app deployed on Heroku.
 
 - - -
 
-## Commit Early and Often
+### Commit Early and Often
 
 One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
@@ -68,7 +90,7 @@ Follow these guidelines for committing:
 
 We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Submission on BCS
+### Submission on BCS
 
 You are required to submit the following:
 
